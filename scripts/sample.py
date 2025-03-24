@@ -1,0 +1,1 @@
+print("Computer says no")

@@ -1,0 +1,8 @@
+services:
+  python-scripts:
+    image: python:3.13.2
+    container_name: python-scripts
+    volumes:
+      - .:/container
+    working_dir: /container/scripts
+    env_file: .env
